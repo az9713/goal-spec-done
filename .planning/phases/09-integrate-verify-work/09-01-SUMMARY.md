@@ -21,8 +21,8 @@ tech-stack:
 
 key-files:
   created:
-    - get-shit-done/workflows/verify-work.md
-    - get-shit-done/templates/uat-issues.md
+    - goal-spec-done/workflows/verify-work.md
+    - goal-spec-done/templates/uat-issues.md
   modified:
     - commands/gsd/verify-work.md
 
@@ -70,8 +70,8 @@ completed: 2026-01-08
 
 ## Files Created/Modified
 
-- `get-shit-done/workflows/verify-work.md` - UAT workflow with 8 terse steps
-- `get-shit-done/templates/uat-issues.md` - Phase-scoped issue format with severity guide
+- `goal-spec-done/workflows/verify-work.md` - UAT workflow with 8 terse steps
+- `goal-spec-done/templates/uat-issues.md` - Phase-scoped issue format with severity guide
 - `commands/gsd/verify-work.md` - Refactored to delegate to workflow
 
 ## Decisions Made

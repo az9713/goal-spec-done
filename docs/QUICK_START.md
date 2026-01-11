@@ -1,4 +1,4 @@
-# Quick Start Guide - Get Shit Done (GSD)
+# Quick Start Guide - Goal Spec Done (GSD)
 
 ## Get Started in 5 Minutes
 
@@ -9,7 +9,7 @@ This guide will have you using GSD within 5 minutes. Let's go!
 Make sure you have Node.js installed, then run:
 
 ```bash
-npm install -g get-shit-done
+npm install -g goal-spec-done
 ```
 
 ### Step 2: Create a Folder (30 seconds)

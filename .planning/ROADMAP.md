@@ -43,7 +43,7 @@ Documents to template:
 
 Components:
 - Slash command: `commands/gsd/map-codebase.md`
-- Workflow: `get-shit-done/workflows/map-codebase.md`
+- Workflow: `goal-spec-done/workflows/map-codebase.md`
 - Parallel Explore agent orchestration
 - Output to `.planning/codebase/`
 

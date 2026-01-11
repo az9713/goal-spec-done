@@ -23,7 +23,7 @@ ${cyan}   ██████╗ ███████╗██████╗
   ╚██████╔╝███████║██████╔╝
    ╚═════╝ ╚══════╝╚═════╝${reset}
 
-  Get Shit Done ${dim}v${pkg.version}${reset}
+  Goal Spec Done ${dim}v${pkg.version}${reset}
   A meta-prompting, context engineering and spec-driven
   development system for Claude Code by TÂCHES.
 `;
@@ -59,7 +59,7 @@ console.log(banner);
 
 // Show help if requested
 if (hasHelp) {
-  console.log(`  ${yellow}Usage:${reset} npx get-shit-done-cc [options]
+  console.log(`  ${yellow}Usage:${reset} npx goal-spec-done-cc [options]
 
   ${yellow}Options:${reset}
     ${cyan}-g, --global${reset}              Install globally (to Claude config directory)
@@ -69,16 +69,16 @@ if (hasHelp) {
 
   ${yellow}Examples:${reset}
     ${dim}# Install to default ~/.claude directory${reset}
-    npx get-shit-done-cc --global
+    npx goal-spec-done-cc --global
 
     ${dim}# Install to custom config directory (for multiple Claude accounts)${reset}
-    npx get-shit-done-cc --global --config-dir ~/.claude-bc
+    npx goal-spec-done-cc --global --config-dir ~/.claude-bc
 
     ${dim}# Using environment variable${reset}
-    CLAUDE_CONFIG_DIR=~/.claude-bc npx get-shit-done-cc --global
+    CLAUDE_CONFIG_DIR=~/.claude-bc npx goal-spec-done-cc --global
 
     ${dim}# Install to current project only${reset}
-    npx get-shit-done-cc --local
+    npx goal-spec-done-cc --local
 
   ${yellow}Notes:${reset}
     The --config-dir option is useful when you have multiple Claude Code
@@ -157,11 +157,11 @@ function install(isGlobal) {
   copyWithPathReplacement(gsdSrc, gsdDest, pathPrefix);
   console.log(`  ${green}✓${reset} Installed commands/gsd`);
 
-  // Copy get-shit-done skill with path replacement
-  const skillSrc = path.join(src, 'get-shit-done');
-  const skillDest = path.join(claudeDir, 'get-shit-done');
+  // Copy goal-spec-done skill with path replacement
+  const skillSrc = path.join(src, 'goal-spec-done');
+  const skillDest = path.join(claudeDir, 'goal-spec-done');
   copyWithPathReplacement(skillSrc, skillDest, pathPrefix);
-  console.log(`  ${green}✓${reset} Installed get-shit-done`);
+  console.log(`  ${green}✓${reset} Installed goal-spec-done`);
 
   console.log(`
   ${green}Done!${reset} Run ${cyan}/gsd:help${reset} to get started.

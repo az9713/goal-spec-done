@@ -19,8 +19,8 @@ Output: {plan}-FIX.md in the phase directory, ready for execution.
 </objective>
 
 <execution_context>
-@~/.claude/get-shit-done/references/plan-format.md
-@~/.claude/get-shit-done/references/checkpoints.md
+@~/.claude/goal-spec-done/references/plan-format.md
+@~/.claude/goal-spec-done/references/checkpoints.md
 </execution_context>
 
 <context>
@@ -126,8 +126,8 @@ Priority: {critical count} critical, {major count} major, {minor count} minor
 </objective>
 
 <execution_context>
-@~/.claude/get-shit-done/workflows/execute-phase.md
-@~/.claude/get-shit-done/templates/summary.md
+@~/.claude/goal-spec-done/workflows/execute-phase.md
+@~/.claude/goal-spec-done/templates/summary.md
 </execution_context>
 
 <context>

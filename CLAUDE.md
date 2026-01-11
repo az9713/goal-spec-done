@@ -2,17 +2,17 @@
 
 ## Project Overview
 
-**Get Shit Done (GSD)** is a Claude Code workflow framework that provides structured project management through slash commands. It helps developers plan, execute, and track software development work with AI assistance.
+**Goal Spec Done (GSD)** is a Claude Code workflow framework that provides structured project management through slash commands. It helps developers plan, execute, and track software development work with AI assistance.
 
 ## Project Structure
 
 ```
-get-shit-done_me/
+goal-spec-done/
 ├── bin/
 │   └── install.js              # NPM post-install script
 ├── commands/
 │   └── gsd/                    # 24 slash commands (*.md files)
-├── get-shit-done/
+├── goal-spec-done/
 │   ├── references/             # Reference documentation (9 files)
 │   ├── templates/              # Project templates (14 files)
 │   └── workflows/              # Core workflows (4 files)
@@ -56,15 +56,15 @@ get-shit-done_me/
 ### When Modifying Commands
 - Commands are Markdown files in `commands/gsd/`
 - Each command has: purpose, arguments, process steps, success criteria
-- Commands reference workflows in `get-shit-done/workflows/`
+- Commands reference workflows in `goal-spec-done/workflows/`
 
 ### When Modifying Workflows
-- Workflows are in `get-shit-done/workflows/`
+- Workflows are in `goal-spec-done/workflows/`
 - Core workflows: plan-phase.md, execute-phase.md, verify-work.md
 - Workflows use XML-like step tags for structure
 
 ### When Modifying Templates
-- Templates are in `get-shit-done/templates/`
+- Templates are in `goal-spec-done/templates/`
 - Templates define structure for project artifacts
 - Used by commands to create consistent files
 

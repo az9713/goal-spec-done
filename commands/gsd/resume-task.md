@@ -20,7 +20,7 @@ Uses the agent ID tracking infrastructure from execute-phase to identify and res
 </objective>
 
 <execution_context>
-@~/.claude/get-shit-done/workflows/resume-task.md
+@~/.claude/goal-spec-done/workflows/resume-task.md
 </execution_context>
 
 <context>

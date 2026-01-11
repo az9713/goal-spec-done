@@ -1,4 +1,4 @@
-# Developer Guide - Get Shit Done (GSD)
+# Developer Guide - Goal Spec Done (GSD)
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@
 
 ### What is GSD?
 
-Get Shit Done (GSD) is a **workflow framework** for Claude Code. Think of it as a project management system that works inside your terminal, powered by AI.
+Goal Spec Done (GSD) is a **workflow framework** for Claude Code. Think of it as a project management system that works inside your terminal, powered by AI.
 
 **Key Idea**: Instead of manually organizing your development work, you use slash commands (like `/gsd:plan-phase`) and Claude helps you plan, execute, and track your progress.
 
@@ -146,7 +146,7 @@ You should be familiar with:
                               ▼ Commands reference workflows
 ┌─────────────────────────────────────────────────────────────────┐
 │                   WORKFLOWS (4 files)                            │
-│           get-shit-done/workflows/*.md                           │
+│           goal-spec-done/workflows/*.md                           │
 │                                                                  │
 │  Detailed step-by-step instructions for Claude                   │
 └─────────────────────────────────────────────────────────────────┘
@@ -154,7 +154,7 @@ You should be familiar with:
                               ▼ Workflows use templates
 ┌─────────────────────────────────────────────────────────────────┐
 │                   TEMPLATES (14 files)                           │
-│           get-shit-done/templates/*.md                           │
+│           goal-spec-done/templates/*.md                           │
 │                                                                  │
 │  Structure definitions for project files                         │
 └─────────────────────────────────────────────────────────────────┘
@@ -196,10 +196,10 @@ Let's trace what happens when you run `/gsd:plan-phase 3`:
 cd ~/projects  # or wherever you keep projects
 
 # Clone the repository
-git clone https://github.com/your-username/get-shit-done_me.git
+git clone https://github.com/your-username/goal-spec-done_me.git
 
 # Enter the project directory
-cd get-shit-done_me
+cd goal-spec-done_me
 ```
 
 ### Step 2: Understand the Installation
@@ -222,7 +222,7 @@ Look at `package.json`:
 For development, use `npm link` to create a symbolic link:
 
 ```bash
-# In the get-shit-done_me directory
+# In the goal-spec-done_me directory
 npm link
 ```
 
@@ -234,13 +234,13 @@ Check that files were copied correctly:
 
 ```bash
 # Check if templates exist
-ls ~/.claude/get-shit-done/templates/
+ls ~/.claude/goal-spec-done/templates/
 
 # Check if workflows exist
-ls ~/.claude/get-shit-done/workflows/
+ls ~/.claude/goal-spec-done/workflows/
 
 # Check if references exist
-ls ~/.claude/get-shit-done/references/
+ls ~/.claude/goal-spec-done/references/
 ```
 
 You should see files in each directory.
@@ -266,10 +266,10 @@ Let's explore every directory and file:
 ### Root Directory
 
 ```
-get-shit-done_me/
+goal-spec-done_me/
 ├── bin/                    # Installation scripts
 ├── commands/               # Slash command definitions
-├── get-shit-done/          # Core framework files
+├── goal-spec-done/          # Core framework files
 ├── .planning/              # Example project state (for testing)
 ├── docs/                   # Documentation (you're reading this!)
 ├── package.json            # NPM configuration
@@ -289,7 +289,7 @@ bin/
 
 ```javascript
 // What it does:
-// 1. Creates ~/.claude/get-shit-done/ if it doesn't exist
+// 1. Creates ~/.claude/goal-spec-done/ if it doesn't exist
 // 2. Copies templates/, workflows/, references/ there
 // 3. Copies commands/gsd/ to Claude's commands directory
 ```
@@ -324,16 +324,16 @@ commands/gsd/
 └── verify-work.md         # User acceptance testing
 ```
 
-### The `get-shit-done/` Directory
+### The `goal-spec-done/` Directory
 
 ```
-get-shit-done/
+goal-spec-done/
 ├── references/            # Reference documentation
 ├── templates/             # File templates
 └── workflows/             # Detailed workflows
 ```
 
-#### References (`get-shit-done/references/`)
+#### References (`goal-spec-done/references/`)
 
 ```
 references/
@@ -348,7 +348,7 @@ references/
 └── tdd.md                 # Test-driven development
 ```
 
-#### Templates (`get-shit-done/templates/`)
+#### Templates (`goal-spec-done/templates/`)
 
 ```
 templates/
@@ -370,7 +370,7 @@ templates/
 └── uat-issues.md          # UAT issues template
 ```
 
-#### Workflows (`get-shit-done/workflows/`)
+#### Workflows (`goal-spec-done/workflows/`)
 
 ```
 workflows/
@@ -670,7 +670,7 @@ Templates are referenced like this:
 
 ```markdown
 <step name="create_file">
-Use template from ~/.claude/get-shit-done/templates/state.md
+Use template from ~/.claude/goal-spec-done/templates/state.md
 to create .planning/STATE.md
 </step>
 ```
@@ -747,7 +747,7 @@ The progress output should now include issue count.
 
 2. **Reinstall package**:
    ```bash
-   cd ~/path/to/get-shit-done_me
+   cd ~/path/to/goal-spec-done_me
    npm link
    ```
 
@@ -791,7 +791,7 @@ For any change, verify:
 **Step 1**: Create template file
 
 ```bash
-touch get-shit-done/templates/my-template.md
+touch goal-spec-done/templates/my-template.md
 ```
 
 **Step 2**: Add content with placeholders
@@ -812,7 +812,7 @@ touch get-shit-done/templates/my-template.md
 
 ```markdown
 <step name="create_file">
-Use template from ~/.claude/get-shit-done/templates/my-template.md
+Use template from ~/.claude/goal-spec-done/templates/my-template.md
 </step>
 ```
 
@@ -845,7 +845,7 @@ cat commands/gsd/command-name.md
 **Step 1**: Create the file
 
 ```bash
-touch get-shit-done/references/my-reference.md
+touch goal-spec-done/references/my-reference.md
 ```
 
 **Step 2**: Add helpful content
@@ -862,7 +862,7 @@ touch get-shit-done/references/my-reference.md
 **Step 2**: Read the workflow step-by-step
 
 ```bash
-cat get-shit-done/workflows/workflow-name.md
+cat goal-spec-done/workflows/workflow-name.md
 ```
 
 **Step 3**: Add debug output (temporarily)

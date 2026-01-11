@@ -1,14 +1,14 @@
 {
-  "name": "get-shit-done-cc",
+  "name": "goal-spec-done-cc",
   "version": "1.3.34",
   "description": "A meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
   "bin": {
-    "get-shit-done-cc": "bin/install.js"
+    "goal-spec-done-cc": "bin/install.js"
   },
   "files": [
     "bin",
     "commands",
-    "get-shit-done"
+    "goal-spec-done"
   ],
   "keywords": [
     "claude",
@@ -16,7 +16,9 @@
     "ai",
     "meta-prompting",
     "context-engineering",
-    "spec-driven-development"
+    "spec-driven-development",
+    "goal-spec-done",
+    "gsd"
   ],
   "author": "TÂCHES",
   "license": "MIT",

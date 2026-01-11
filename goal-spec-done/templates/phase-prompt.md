@@ -23,10 +23,10 @@ Output: [What artifacts will be created]
 </objective>
 
 <execution_context>
-~/.claude/get-shit-done/workflows/execute-phase.md
+~/.claude/goal-spec-done/workflows/execute-phase.md
 ./summary.md
 [If plan contains checkpoint tasks (type="checkpoint:*"), add:]
-~/.claude/get-shit-done/references/checkpoints.md
+~/.claude/goal-spec-done/references/checkpoints.md
 </execution_context>
 
 <context>
@@ -181,7 +181,7 @@ TDD requires 2-3 execution cycles (RED → GREEN → REFACTOR) that consume 40-5
 → Yes: Create a TDD plan (one feature per plan)
 → No: Standard task in standard plan
 
-See `~/.claude/get-shit-done/references/tdd.md` for TDD plan structure.
+See `~/.claude/goal-spec-done/references/tdd.md` for TDD plan structure.
 </tdd_plan_note>
 
 <good_examples>
@@ -201,7 +201,7 @@ Output: Working Next.js app with JWT auth, protected routes, and user model.
 </objective>
 
 <execution_context>
-~/.claude/get-shit-done/workflows/execute-phase.md
+~/.claude/goal-spec-done/workflows/execute-phase.md
 ./summary.md
 </execution_context>
 

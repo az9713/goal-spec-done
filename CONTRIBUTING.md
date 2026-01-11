@@ -1,4 +1,4 @@
-# Contributing to Get Shit Done (GSD)
+# Contributing to Goal Spec Done (GSD)
 
 Thank you for your interest in contributing to GSD! This document provides guidelines and instructions for contributors.
 
@@ -85,12 +85,12 @@ npm link
 ### Directory Structure
 
 ```
-get-shit-done/
+goal-spec-done/
 ├── bin/                    # Installation scripts
 │   └── install.js
 ├── commands/               # Slash commands
 │   └── gsd/               # All /gsd:* commands
-├── get-shit-done/         # Core framework
+├── goal-spec-done/        # Core framework
 │   ├── references/        # Reference docs
 │   ├── templates/         # File templates
 │   └── workflows/         # Execution workflows

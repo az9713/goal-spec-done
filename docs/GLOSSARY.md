@@ -1,4 +1,4 @@
-# Glossary & FAQ - Get Shit Done (GSD)
+# Glossary & FAQ - Goal Spec Done (GSD)
 
 ## Table of Contents
 
@@ -313,8 +313,8 @@ GSD is designed for solo development, but you can:
 
 **Q: GSD commands aren't recognized**
 
-1. Verify installation: `ls ~/.claude/get-shit-done/`
-2. Reinstall if needed: `npm install -g get-shit-done`
+1. Verify installation: `ls ~/.claude/goal-spec-done/`
+2. Reinstall if needed: `npm install -g goal-spec-done`
 3. Restart Claude Code
 
 **Q: Claude seems confused about the project**
@@ -452,7 +452,7 @@ These work in Claude Code:
 ### File Locations
 
 ```
-~/.claude/get-shit-done/     GSD installation
+~/.claude/goal-spec-done/     GSD installation
 .planning/                    Project state
 .planning/PROJECT.md          Project vision
 .planning/ROADMAP.md          All phases

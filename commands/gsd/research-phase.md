@@ -27,9 +27,9 @@ Output: RESEARCH.md with ecosystem knowledge that informs quality planning.
 </objective>
 
 <execution_context>
-@~/.claude/get-shit-done/workflows/research-phase.md
-@~/.claude/get-shit-done/templates/research.md
-@~/.claude/get-shit-done/references/research-pitfalls.md
+@~/.claude/goal-spec-done/workflows/research-phase.md
+@~/.claude/goal-spec-done/templates/research.md
+@~/.claude/goal-spec-done/references/research-pitfalls.md
 </execution_context>
 
 <context>

@@ -1,18 +1,17 @@
 <div align="center">
 
-# GET SHIT DONE
+# GOAL SPEC DONE
 
 **A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.**
 
-[![npm version](https://img.shields.io/npm/v/get-shit-done-cc?style=for-the-badge&logo=npm&logoColor=white&color=CB3837)](https://www.npmjs.com/package/get-shit-done-cc)
-[![npm downloads](https://img.shields.io/npm/dm/get-shit-done-cc?style=for-the-badge&logo=npm&logoColor=white&color=CB3837)](https://www.npmjs.com/package/get-shit-done-cc)
+[![npm version](https://img.shields.io/npm/v/goal-spec-done-cc?style=for-the-badge&logo=npm&logoColor=white&color=CB3837)](https://www.npmjs.com/package/goal-spec-done-cc)
+[![npm downloads](https://img.shields.io/npm/dm/goal-spec-done-cc?style=for-the-badge&logo=npm&logoColor=white&color=CB3837)](https://www.npmjs.com/package/goal-spec-done-cc)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/glittercowboy/get-shit-done?style=for-the-badge&logo=github&color=181717)](https://github.com/glittercowboy/get-shit-done)
 
 <br>
 
 ```bash
-npx get-shit-done-cc
+npx goal-spec-done-cc
 ```
 
 **Works on Mac, Windows, and Linux.**
@@ -27,7 +26,7 @@ npx get-shit-done-cc
 
 *"I've done SpecKit, OpenSpec and Taskmaster — this has produced the best results for me."*
 
-*"By far the most powerful addition to my Claude Code. Nothing over-engineered. Literally just gets shit done."*
+*"By far the most powerful addition to my Claude Code. Nothing over-engineered. Literally just gets stuff done."*
 
 <br>
 
@@ -49,7 +48,7 @@ So I built GSD. The complexity is in the system, not in your workflow. Behind th
 
 The system gives Claude everything it needs to do the work *and* verify it. I trust the workflow. It just does a good job.
 
-That's what this is. No enterprise roleplay bullshit. Just an incredibly effective system for building cool stuff consistently using Claude Code.
+That's what this is. No enterprise roleplay. Just an incredibly effective system for building cool stuff consistently using Claude Code.
 
 — **TÂCHES**
 
@@ -70,7 +69,7 @@ People who want to describe what they want and have it built correctly — witho
 ## Getting Started
 
 ```bash
-npx get-shit-done-cc
+npx goal-spec-done-cc
 ```
 
 That's it. Verify with `/gsd:help`.
@@ -79,8 +78,8 @@ That's it. Verify with `/gsd:help`.
 <summary><strong>Non-interactive Install (Docker, CI, Scripts)</strong></summary>
 
 ```bash
-npx get-shit-done-cc --global   # Install to ~/.claude/
-npx get-shit-done-cc --local    # Install to ./.claude/
+npx goal-spec-done-cc --global   # Install to ~/.claude/
+npx goal-spec-done-cc --local    # Install to ./.claude/
 ```
 
 Use `--global` (`-g`) or `--local` (`-l`) to skip the interactive prompt.
@@ -349,32 +348,20 @@ You're never locked in. The system adapts.
 
 **Commands not working as expected?**
 - Run `/gsd:help` to verify installation
-- Re-run `npx get-shit-done-cc` to reinstall
+- Re-run `npx goal-spec-done-cc` to reinstall
 
 **Updating to the latest version?**
 ```bash
-npx get-shit-done-cc@latest
+npx goal-spec-done-cc@latest
 ```
 
 **Using Docker or containerized environments?**
 
 If file reads fail with tilde paths (`~/.claude/...`), set `CLAUDE_CONFIG_DIR` before installing:
 ```bash
-CLAUDE_CONFIG_DIR=/home/youruser/.claude npx get-shit-done-cc --global
+CLAUDE_CONFIG_DIR=/home/youruser/.claude npx goal-spec-done-cc --global
 ```
 This ensures absolute paths are used instead of `~` which may not expand correctly in containers.
-
----
-
-## Star History
-
-<a href="https://star-history.com/#glittercowboy/get-shit-done&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=glittercowboy/get-shit-done&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=glittercowboy/get-shit-done&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=glittercowboy/get-shit-done&type=Date" />
- </picture>
-</a>
 
 ---
 
@@ -405,6 +392,13 @@ Comprehensive documentation is available in the `docs/` folder:
 - **New to GSD?** Start with the [Quick Start Guide](docs/QUICK_START.md)
 - **Want to contribute?** Read the [Developer Guide](docs/DEVELOPER_GUIDE.md)
 - **Need help?** Check the [FAQ](docs/GLOSSARY.md#frequently-asked-questions)
+
+---
+
+## Acknowledgements
+
+- This project is built on the excellent [GSD (Get Shit Done)](https://github.com/glittercowboy/get-shit-done) by TÂCHES.
+- All documentation was created by [Claude Code](https://claude.ai/code) and [Opus 4.5](https://www.anthropic.com).
 
 ---
 

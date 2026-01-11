@@ -1,4 +1,4 @@
-# Installation Guide - Get Shit Done (GSD)
+# Installation Guide - Goal Spec Done (GSD)
 
 ## Table of Contents
 
@@ -208,13 +208,13 @@ Replace with your actual name and email.
 This is the simplest method for most users:
 
 ```bash
-npm install -g get-shit-done
+npm install -g goal-spec-done
 ```
 
 **What happens:**
 1. NPM downloads the package
 2. The `postinstall` script runs automatically
-3. Templates and workflows are copied to `~/.claude/get-shit-done/`
+3. Templates and workflows are copied to `~/.claude/goal-spec-done/`
 4. Commands are registered with Claude Code
 
 ### Method 2: From Source (For Developers)
@@ -244,7 +244,7 @@ If you downloaded a .zip file:
 1. **Extract the Archive**
    - Windows: Right-click → "Extract All"
    - macOS: Double-click the .zip
-   - Linux: `unzip get-shit-done.zip`
+   - Linux: `unzip goal-spec-done.zip`
 
 2. **Navigate to the Directory**
    ```bash
@@ -263,7 +263,7 @@ If you downloaded a .zip file:
 ### Check 1: Templates Directory
 
 ```bash
-ls ~/.claude/get-shit-done/templates/
+ls ~/.claude/goal-spec-done/templates/
 ```
 
 **Expected Output:**
@@ -277,7 +277,7 @@ You should see files like:
 ### Check 2: Workflows Directory
 
 ```bash
-ls ~/.claude/get-shit-done/workflows/
+ls ~/.claude/goal-spec-done/workflows/
 ```
 
 **Expected Output:**
@@ -288,7 +288,7 @@ ls ~/.claude/get-shit-done/workflows/
 ### Check 3: References Directory
 
 ```bash
-ls ~/.claude/get-shit-done/references/
+ls ~/.claude/goal-spec-done/references/
 ```
 
 **Expected Output:**
@@ -359,14 +359,14 @@ If you see `PROJECT.md`, `ROADMAP.md`, and `STATE.md`, GSD is working!
 **Solution (macOS/Linux):**
 ```bash
 # Option 1: Use sudo (not recommended for npm)
-sudo npm install -g get-shit-done
+sudo npm install -g goal-spec-done
 
 # Option 2: Fix npm permissions (recommended)
 mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
 echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
-npm install -g get-shit-done
+npm install -g goal-spec-done
 ```
 
 **Solution (Windows):**
@@ -381,11 +381,11 @@ npm install -g get-shit-done
 **Solution:**
 1. Manually create the Claude directory:
    ```bash
-   mkdir -p ~/.claude/get-shit-done
+   mkdir -p ~/.claude/goal-spec-done
    ```
 2. Try install again:
    ```bash
-   npm install -g get-shit-done
+   npm install -g goal-spec-done
    ```
 
 ### Problem: Commands not found after install
@@ -395,7 +395,7 @@ npm install -g get-shit-done
 **Solution:**
 1. Find where GSD was installed:
    ```bash
-   npm list -g get-shit-done
+   npm list -g goal-spec-done
    ```
 2. Manually copy commands:
    ```bash
@@ -403,7 +403,7 @@ npm install -g get-shit-done
    NPM_ROOT=$(npm root -g)
 
    # Copy commands
-   cp -r $NPM_ROOT/get-shit-done/commands/* ~/.claude/commands/
+   cp -r $NPM_ROOT/goal-spec-done/commands/* ~/.claude/commands/
    ```
 
 ### Problem: "Cannot find module" errors
@@ -413,13 +413,13 @@ npm install -g get-shit-done
 **Solution:**
 ```bash
 # Uninstall
-npm uninstall -g get-shit-done
+npm uninstall -g goal-spec-done
 
 # Clear npm cache
 npm cache clean --force
 
 # Reinstall
-npm install -g get-shit-done
+npm install -g goal-spec-done
 ```
 
 ### Problem: Git not initialized error
@@ -448,19 +448,19 @@ git init
 ### Update to Latest Version
 
 ```bash
-npm update -g get-shit-done
+npm update -g goal-spec-done
 ```
 
 ### Update to Specific Version
 
 ```bash
-npm install -g get-shit-done@1.2.3
+npm install -g goal-spec-done@1.2.3
 ```
 
 ### Check Current Version
 
 ```bash
-npm list -g get-shit-done
+npm list -g goal-spec-done
 ```
 
 ### What Gets Updated
@@ -479,13 +479,13 @@ When you update GSD:
 ### Remove the NPM Package
 
 ```bash
-npm uninstall -g get-shit-done
+npm uninstall -g goal-spec-done
 ```
 
 ### Remove GSD Configuration Files
 
 ```bash
-rm -rf ~/.claude/get-shit-done
+rm -rf ~/.claude/goal-spec-done
 ```
 
 ### Remove GSD Commands (if needed)

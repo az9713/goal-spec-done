@@ -1,4 +1,4 @@
-# Architecture Guide - Get Shit Done (GSD)
+# Architecture Guide - Goal Spec Done (GSD)
 
 ## Overview
 
@@ -48,7 +48,7 @@ This document explains how GSD is designed and how all the pieces fit together. 
 │  │  plan-phase.md   │ │ execute-phase.md │ │  verify-work.md  │             │
 │  └──────────────────┘ └──────────────────┘ └──────────────────┘             │
 │                                                                              │
-│  Location: get-shit-done/workflows/*.md                                      │
+│  Location: goal-spec-done/workflows/*.md                                      │
 │  Purpose: Detailed step-by-step execution logic                              │
 └─────────────────────────────────────────────────────────────────────────────┘
                                       │
@@ -137,7 +137,7 @@ $2 - Second argument (optional)
 
 **Purpose**: Provide detailed execution logic that commands reference.
 
-**Location**: `get-shit-done/workflows/*.md`
+**Location**: `goal-spec-done/workflows/*.md`
 
 **Structure**:
 ```markdown
@@ -182,7 +182,7 @@ What to do in interactive mode
 
 **Purpose**: Define file structures for consistency.
 
-**Location**: `get-shit-done/templates/*.md`
+**Location**: `goal-spec-done/templates/*.md`
 
 **Key Templates**:
 
@@ -199,7 +199,7 @@ What to do in interactive mode
 
 **Purpose**: Provide guidance documents for Claude.
 
-**Location**: `get-shit-done/references/*.md`
+**Location**: `goal-spec-done/references/*.md`
 
 **Key References**:
 
@@ -717,19 +717,19 @@ Parse plan for checkpoints
 
 ### Adding New Workflows
 
-1. Create `get-shit-done/workflows/new-workflow.md`
+1. Create `goal-spec-done/workflows/new-workflow.md`
 2. Follow workflow structure with steps
 3. Reference from commands
 
 ### Adding New Templates
 
-1. Create `get-shit-done/templates/new-template.md`
+1. Create `goal-spec-done/templates/new-template.md`
 2. Use placeholder syntax: `[Placeholder]`
 3. Reference from workflows
 
 ### Adding New References
 
-1. Create `get-shit-done/references/new-reference.md`
+1. Create `goal-spec-done/references/new-reference.md`
 2. Include in workflow `<required_reading>` sections
 
 ### Customizing Behavior

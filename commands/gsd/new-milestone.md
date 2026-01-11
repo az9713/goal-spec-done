@@ -12,8 +12,8 @@ Output: New milestone in ROADMAP.md, updated STATE.md, phase directories created
 </objective>
 
 <execution_context>
-@~/.claude/get-shit-done/workflows/create-milestone.md
-@~/.claude/get-shit-done/templates/roadmap.md
+@~/.claude/goal-spec-done/workflows/create-milestone.md
+@~/.claude/goal-spec-done/templates/roadmap.md
 </execution_context>
 
 <context>

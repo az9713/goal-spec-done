@@ -1,4 +1,4 @@
-# Documentation Index - Get Shit Done (GSD)
+# Documentation Index - Goal Spec Done (GSD)
 
 Welcome to the GSD documentation! This index will help you find what you need.
 
@@ -122,7 +122,7 @@ Commands are shown in code blocks:
 
 File paths use forward slashes for consistency:
 
-- `~/.claude/get-shit-done/` - GSD installation
+- `~/.claude/goal-spec-done/` - GSD installation
 - `.planning/` - Project planning directory
 
 ### Screenshots and Diagrams

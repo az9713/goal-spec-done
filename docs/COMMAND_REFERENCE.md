@@ -1,4 +1,4 @@
-# Command Reference - Get Shit Done (GSD)
+# Command Reference - Goal Spec Done (GSD)
 
 Complete reference for all 24 GSD commands with detailed usage instructions.
 

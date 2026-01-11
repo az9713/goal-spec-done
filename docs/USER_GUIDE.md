@@ -1,4 +1,4 @@
-# User Guide - Get Shit Done (GSD)
+# User Guide - Goal Spec Done (GSD)
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@
 
 ## Welcome to GSD
 
-### What is Get Shit Done (GSD)?
+### What is Goal Spec Done (GSD)?
 
 GSD is a tool that helps you build software projects with AI assistance. Think of it as having a smart project manager and developer assistant combined.
 
@@ -122,7 +122,7 @@ You should be comfortable with:
 Open your command line and run:
 
 ```bash
-npm install -g get-shit-done
+npm install -g goal-spec-done
 ```
 
 **What this does**: Downloads GSD and installs it on your computer.
@@ -132,7 +132,7 @@ npm install -g get-shit-done
 Run this command:
 
 ```bash
-ls ~/.claude/get-shit-done/
+ls ~/.claude/goal-spec-done/
 ```
 
 You should see folders like `templates`, `workflows`, and `references`.
@@ -802,7 +802,7 @@ If you find a bug in GSD:
 
 You now know how to use GSD! Here's a quick recap:
 
-1. **Install**: `npm install -g get-shit-done`
+1. **Install**: `npm install -g goal-spec-done`
 2. **Create project**: `/gsd:new-project`
 3. **Plan phases**: `/gsd:plan-phase [N]`
 4. **Execute plans**: `/gsd:execute-plan`
